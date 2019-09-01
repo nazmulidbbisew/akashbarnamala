@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Check a positive number which is prime and not prime</title>
+</head>
+
+<body>
+
+<script>
+var x=parseInt(prompt("Enter a positive number"));
+var c=0;
+
+for(var i=1; i<=x; i++)
+{
+	if(x%i==0)
+		{
+		c++
+		}
+}
+if(c==2)
+	{
+	alert("This is a prime Number");
+	}
+else
+	{
+	alert("This is not a prime Number");
+	}
+</script>
+</body>
+</html>
